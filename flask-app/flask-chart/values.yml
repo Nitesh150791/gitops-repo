@@ -1,0 +1,9 @@
+replicaCount: 2
+image:
+ repository: yourdockerhubusername/secure-flask-app
+ tag: "1"
+ pullPolicy: IfNotPresent
+service:
+ type: LoadBalancer
+ port: 80
+ targetPort: 5000
