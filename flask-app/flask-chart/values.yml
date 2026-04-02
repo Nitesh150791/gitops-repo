@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
- repository: yourdockerhubusername/secure-flask-app
- tag: "17"
+ repository: public.ecr.aws/f9o8o3c1/secure-flask-app
+ tag: "10"
  pullPolicy: IfNotPresent
 service:
  type: LoadBalancer
