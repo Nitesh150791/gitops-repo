@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
  repository: public.ecr.aws/f9o8o3c1/secure-flask-app
- tag: "10"
+ tag: "18"
  pullPolicy: IfNotPresent
 service:
  type: LoadBalancer
