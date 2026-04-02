@@ -4,6 +4,6 @@ image:
  tag: "21"
  pullPolicy: IfNotPresent
 service:
- type: LoadBalancer
- port: 80
+ type: ClusterIP
+ port: 5000
  targetPort: 5000
