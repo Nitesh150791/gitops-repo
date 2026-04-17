@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
- repository: public.ecr.aws/f9o8o3c1/secure-flask-app
+ repository: public.ecr.aws/r0d9q3c1/secure-flask-app
  tag: "30"
  pullPolicy: Always
 service:
