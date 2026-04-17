@@ -1,9 +1,1 @@
-replicaCount: 2
-image:
- repository: public.ecr.aws/r0d9q3c1/secure-flask-app
- tag: "30"
- pullPolicy: Always
-service:
- type: ClusterIP
- port: 5000
- targetPort: 5000
+
