@@ -1,7 +1,7 @@
 replicaCount: 2
 image:
  repository: public.ecr.aws/r0d9q3c1/secure-flask-app
- tag: "30"
+ tag: "17"
  pullPolicy: Always
 service:
  type: ClusterIP
